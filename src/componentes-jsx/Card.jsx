@@ -1,25 +1,23 @@
-import './Card.css';
-import './Footer.jsx';
+import '../componentes-css/Card.css';
 
 
 const Card = (props) => {
     return (
         <article className='card-galeria'>
             
-            <div>
+            <div >
                 <img alt= {props.titulo_imagen} src= {props.src_imagen}/>
             </div>
             
-            <div>
+            <div className='tituloImagen'>
                 <h3>{props.titulo_imagen}</h3>
             </div>
             
-            <div>
+            <div className='tamanoDescripcion'>
                 <p>{props.descripcion_imagen}</p>
             </div>
 
             <div>
-                
             </div>
         </article>
     );

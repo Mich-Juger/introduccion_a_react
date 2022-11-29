@@ -1,0 +1,23 @@
+.card-galeria {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.427);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #81817d
+    
+}
+
+.card-galeria img {
+    padding-top: 25px;
+    width: 400px;
+}
+
+.tamanoDescripcion p {
+    width: 400px;
+    padding: 25px;
+       
+}
+
+.tituloImagen {
+    padding-top: 30px;
+}
